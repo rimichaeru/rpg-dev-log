@@ -28,14 +28,14 @@
 
       h4 {
         font-size: 34px;
-        color: $colour-blue-dark;
+        color: $colour-background-light;
         margin: 20px;
       }
 
       img {
         height: 300px;
         width: auto;
-        border-radius: 400px;
+        border-radius: 180px;
       }
 
     }
@@ -47,6 +47,11 @@
       gap: 4px;
       margin: 16px;
       color: $colour-blue-dark;
+      cursor: pointer;
+
+      & > *:hover {
+        color: $colour-orange;
+      }
     }
   }
 
