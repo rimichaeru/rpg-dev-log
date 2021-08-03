@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/rpg-dev-log/static/css/main.c3de8cfb.chunk.css",
-    "main.js": "/rpg-dev-log/static/js/main.69bbc230.chunk.js",
-    "main.js.map": "/rpg-dev-log/static/js/main.69bbc230.chunk.js.map",
-    "runtime-main.js": "/rpg-dev-log/static/js/runtime-main.97b1e1a5.js",
-    "runtime-main.js.map": "/rpg-dev-log/static/js/runtime-main.97b1e1a5.js.map",
-    "static/js/2.e5f311ad.chunk.js": "/rpg-dev-log/static/js/2.e5f311ad.chunk.js",
-    "static/js/2.e5f311ad.chunk.js.map": "/rpg-dev-log/static/js/2.e5f311ad.chunk.js.map",
-    "static/js/3.57b46110.chunk.js": "/rpg-dev-log/static/js/3.57b46110.chunk.js",
-    "static/js/3.57b46110.chunk.js.map": "/rpg-dev-log/static/js/3.57b46110.chunk.js.map",
+    "main.css": "/rpg-dev-log/static/css/main.e4355c95.chunk.css",
+    "main.js": "/rpg-dev-log/static/js/main.fe5231b4.chunk.js",
+    "main.js.map": "/rpg-dev-log/static/js/main.fe5231b4.chunk.js.map",
+    "runtime-main.js": "/rpg-dev-log/static/js/runtime-main.8ebed962.js",
+    "runtime-main.js.map": "/rpg-dev-log/static/js/runtime-main.8ebed962.js.map",
+    "static/js/2.302ef59d.chunk.js": "/rpg-dev-log/static/js/2.302ef59d.chunk.js",
+    "static/js/2.302ef59d.chunk.js.map": "/rpg-dev-log/static/js/2.302ef59d.chunk.js.map",
+    "static/js/3.c496d765.chunk.js": "/rpg-dev-log/static/js/3.c496d765.chunk.js",
+    "static/js/3.c496d765.chunk.js.map": "/rpg-dev-log/static/js/3.c496d765.chunk.js.map",
     "index.html": "/rpg-dev-log/index.html",
-    "static/css/main.c3de8cfb.chunk.css.map": "/rpg-dev-log/static/css/main.c3de8cfb.chunk.css.map",
-    "static/js/2.e5f311ad.chunk.js.LICENSE.txt": "/rpg-dev-log/static/js/2.e5f311ad.chunk.js.LICENSE.txt"
+    "static/css/main.e4355c95.chunk.css.map": "/rpg-dev-log/static/css/main.e4355c95.chunk.css.map",
+    "static/js/2.302ef59d.chunk.js.LICENSE.txt": "/rpg-dev-log/static/js/2.302ef59d.chunk.js.LICENSE.txt",
+    "static/media/me.43f81711.jpg": "/rpg-dev-log/static/media/me.43f81711.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97b1e1a5.js",
-    "static/js/2.e5f311ad.chunk.js",
-    "static/css/main.c3de8cfb.chunk.css",
-    "static/js/main.69bbc230.chunk.js"
+    "static/js/runtime-main.8ebed962.js",
+    "static/js/2.302ef59d.chunk.js",
+    "static/css/main.e4355c95.chunk.css",
+    "static/js/main.fe5231b4.chunk.js"
   ]
 }
