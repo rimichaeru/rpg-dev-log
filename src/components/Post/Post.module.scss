@@ -1,0 +1,39 @@
+@import "../../App.scss";
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 40px;
+  width: 60vw;
+  background-color: $colour-background-light;
+
+  & > img {
+    border: 1px solid $colour-orange-faded;
+    border-radius: 40px;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+
+    h4 {
+      font-size: 30px;
+      color: $colour-orange;
+    }
+
+    h5 {
+      font-size: 24px;
+      font-weight: 200;
+      color: $colour-blue;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}

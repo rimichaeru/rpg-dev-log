@@ -1,0 +1,32 @@
+@import "../../App.scss";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 16px 80px;
+  background-color: $colour-background;
+
+  & > * {
+    color: white;
+  }
+
+  .centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap: 10px;
+    cursor: pointer;
+
+    .icon {
+      color: $colour-blue;
+      margin-left: 8vw;
+    }
+  }
+}

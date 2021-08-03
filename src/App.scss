@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea {
+  color: white;
+}
+
+$colour-background: rgb(17, 17, 17);
+$colour-background-light: rgb(29, 29, 29);
+$colour-grey: rgb(118, 118, 118);
+$colour-orange: rgb(245, 128, 90);
+$colour-orange-faded: rgb(62, 44, 39);
+$colour-red: rgb(249, 91, 92);
+$colour-blue: rgb(104, 153, 227);
+
+.grey {
+  color: $colour-grey;
+}
+.orange {
+  color: $colour-orange;
+}
+.orangeFaded {
+  color: $colour-orange-faded;
+}
+.red {
+  color: $colour-red;
+}
+.blue {
+  color: $colour-blue;
+}
+.white {
+  color: white;
+}
+
+body {
+  background-color: $colour-background;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+
+  &:link {
+    color: $colour-orange;
+  }
+
+  &:visited {
+    color: $colour-orange;
+  }
+
+  &:active {
+    color: $colour-orange;
+  }
+
+  &:hover {
+    color: $colour-blue;
+  }
+}

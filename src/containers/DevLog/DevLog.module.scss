@@ -1,0 +1,22 @@
+@import "../../App.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    border-radius: 40px;
+    min-height: 20px;
+    width: 60vw;
+    gap: 28px;
+    flex-wrap: wrap;
+    // background-color: $colour-background-light;
+  }
+}
