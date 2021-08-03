@@ -18,11 +18,14 @@ textarea {
 
 $colour-background: rgb(17, 17, 17);
 $colour-background-light: rgb(29, 29, 29);
+$colour-background-bright: rgb(189, 189, 189);
 $colour-grey: rgb(118, 118, 118);
 $colour-orange: rgb(245, 128, 90);
 $colour-orange-faded: rgb(62, 44, 39);
 $colour-red: rgb(249, 91, 92);
+$colour-red-dark: rgb(184, 70, 70);
 $colour-blue: rgb(104, 153, 227);
+$colour-blue-dark: rgb(85, 129, 194);
 
 .grey {
   color: $colour-grey;
@@ -36,15 +39,22 @@ $colour-blue: rgb(104, 153, 227);
 .red {
   color: $colour-red;
 }
+.redDark {
+  color: $colour-red-dark;
+  font-weight: 700;
+}
 .blue {
   color: $colour-blue;
+}
+.blueDark {
+  color: $colour-blue-dark;
 }
 .white {
   color: white;
 }
 
 body {
-  background-color: $colour-background;
+  background-color: $colour-background-bright;
 }
 
 h1 {
