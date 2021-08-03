@@ -10,6 +10,7 @@
 
 # production
 /build
+.ipynb_checkpoints
 
 # misc
 .DS_Store
