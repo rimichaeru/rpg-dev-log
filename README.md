@@ -1,6 +1,6 @@
 # RPG-DEV-LOG
 
-Live Dev Log: https://rimichaeru.github.io/devlog 
+Live Dev Log: https://rimichaeru.github.io/rpg-dev-log/ 
 
 This is the development log for my Python-Godot in-depth RPG, with the Dev Log itself being built with React.
 
@@ -20,7 +20,7 @@ The game is in a 2D pixel format, and although this can be charming, the vital c
 
 *I hope you tune in, get connected, and join us on the journey!*
 
-https://rimichaeru.github.io/devlog 
+https://rimichaeru.github.io/rpg-dev-log/ 
 
 
 
