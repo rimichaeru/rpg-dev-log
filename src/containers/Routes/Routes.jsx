@@ -17,13 +17,7 @@ const Routes = () => {
       <Route path="/team">
         <Team />
       </Route>
-      <Route exact path="">
-        <Redirect to="/devlog" />
-      </Route>
-      <Route exact path="/">
-        <Redirect to="/devlog" />
-      </Route>
-      <Route exact path="/">
+      <Route path="/*">
         <Redirect to="/devlog" />
       </Route>
     </Switch>
