@@ -8,6 +8,9 @@ import Team from "../Team";
 const Routes = () => {
   return (
     <Switch>
+      <Route exact path="/">
+        <DevLog />
+      </Route>
       <Route path="/devlog">
         <DevLog />
       </Route>
