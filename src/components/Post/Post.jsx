@@ -1,15 +1,24 @@
 import React from "react";
 import styles from "./Post.module.scss";
 
-const Post = () => {
+const Post = (props) => {
+
+  const descList = props.post.description.split("//");
+  const postNum = props.post.image.split("-")[0];
+
   return (
     <div className={styles.container}>
-      <img src="" alt="" />
+      <img src={process.env.PUBLIC_URL + "/post-images/" + props.post.image} alt={props.post.heading} />
       <div className={styles.info}>
-        <h4>Heading</h4>
-        <h5><i>Date</i></h5>
-        <p>Description</p>
+        <h4>{props.post.heading}</h4>
+        <h5><i>{props.post.date}</i></h5>
+
+        {descList.map((descPart) => {
+          return <p>{descPart}</p>
+        })}
+
       </div>
+      <h6>{postNum}</h6>
     </div>
   );
 };

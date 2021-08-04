@@ -3,24 +3,38 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  align-items: center;
   border-radius: 40px;
   width: 60vw;
   background-color: $colour-background-light;
   box-shadow: 1px 2px 6px rgb(49, 49, 49);
+  position: relative;
+
+  h6 {
+    position: absolute;
+    top: 20px;
+    right: 22px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.575);
+  }
 
   & > img {
     border: 1px solid $colour-orange-faded;
     border-radius: 40px;
-    height: 400px;
+    max-height: 400px;
     width: 400px;
     margin: 20px;
+    background-size: cover;
   }
   
   .info {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    margin-right: 26px;
+    margin-left: 8px;
 
     h4 {
       font-size: 30px;
@@ -34,7 +48,7 @@
     }
 
     p {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 }

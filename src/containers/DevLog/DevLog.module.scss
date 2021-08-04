@@ -16,6 +16,20 @@
     min-height: 20px;
     gap: 28px;
     flex-wrap: wrap;
-    // background-color: $colour-background-light;
+    margin-bottom: 120px;
+  }
+
+  .arrow {
+    position: fixed;
+    bottom: 10%;
+    left: 89%;
+    z-index: 20;
+    font-size: 50px;
+    color: rgba(47, 47, 47, 0.274);
+    cursor: pointer;
+  }
+
+  .arrowHidden {
+    display: none;
   }
 }

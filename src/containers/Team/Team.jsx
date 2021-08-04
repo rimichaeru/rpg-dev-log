@@ -19,8 +19,8 @@ const Team = () => {
         <p>Creator and currently the sole developer of the RNG RPG including the graphical assets as well as soundtrack.</p>
 
         <div className={styles.icons}>
-          <CgWebsite onClick={() => window.open("https://www.linkedin.com/in/lee-michael-d-souza-81a8321a4/", "_blank")} size={40} />
-          <FaLinkedin onClick={() => window.open("https://rimichaeru.github.io/portfolio-website/", "_blank")} size={40} />
+          <FaLinkedin onClick={() => window.open("https://www.linkedin.com/in/lee-michael-d-souza-81a8321a4/", "_blank")} size={40} />
+          <CgWebsite onClick={() => window.open("https://rimichaeru.github.io/portfolio-website/", "_blank")} size={40} />
           <FaTwitterSquare onClick={() => window.open("https://twitter.com/rimaikeru", "_blank")} size={40} />
         </div>
 

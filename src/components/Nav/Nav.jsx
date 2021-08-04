@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <div className={styles.container}>
+      <h2>RNG RPG v0.5.0</h2>
       <div className={styles.links}>
         <NavLink
           to="/devlog"

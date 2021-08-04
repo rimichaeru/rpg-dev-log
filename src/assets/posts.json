@@ -1,6 +1,68 @@
-{
-    "image": "1-before-beginning.png",
-    "heading": "Before the Beginning",
-    "date": "Some Years Ago",
-    "description": "Around 2015 I wanted to play a tabletop game like D&D; I read through multiple editions but all of them seemed quite clunky, they also seemed strangely restrictive, so having never actually played D&D or anything similar I decided to develop a tabletop game of my own. I made classes, creatures, game and combat mechanics, character sheets, set it in space, and wrote a brief lore. I wanted to play whilst being the DM, so I made sure a lot of the game and npc decisions were based off dice rolls - leaving everything up to RNGesus. The game worked for the most part, but I only ever played half a session of it with three other people, and I still haven't played D&D to this day. But little did I know, that this budding RPG would eventually evolve into a more sophisticated and complex conception many years later."
-}
+[
+    {
+        "image": "1-before-beginning.png",
+        "heading": "Before the Beginning",
+        "date": "Some Years Ago",
+        "description": "Around 2015 I wanted to play a tabletop game like D&D; I read through multiple editions but all of them seemed quite clunky, they also seemed strangely restrictive, so having never actually played D&D or anything similar I decided to develop a tabletop game of my own. //I made classes, creatures, game and combat mechanics, character sheets, set it in space, and wrote a brief lore. I wanted to play whilst being the DM, so I made sure a lot of the game and npc decisions were based off dice rolls - leaving everything up to RNGesus. //The game worked for the most part, but I only ever played half a session of it with three other people, and I still haven't played D&D to this day. But little did I know, that this budding RPG would eventually evolve into a more sophisticated and complex conception many years later."
+    },
+    {
+        "image": "2-beginning.png",
+        "heading": "The Beginning",
+        "date": "End of 2020",
+        "description": "Gaming from around 2014 onwards left me quite starved. Even now, it's difficult to be excited or interested in a new game on the horizon - scummy publishers, false promises, all-too-effective marketing, over-casualising franchises, and so on, it all leaves me disappointed once the game has finally released. So, using newfound python skills which I trained up in the 2020 lockdown, I dreamt of a game I REALLY, REALLY wanted to play; it had the same giddy and rewarding feeling my tabletop game had, and so I was instantly reminded of it. //I dug up all of the assets and spreadsheets and dove into a coding frenzy. This initial series of posts is an understatement of what happened in those first few months."
+    },
+    {
+        "image": "3-curves.png",
+        "heading": "The Beginning - I love your DB & curves",
+        "date": "End of 2020 & Early 2021",
+        "description": "I developed the code and databases for numerous creatures, weapons, armours, and so on. Then I developed a solid combat system which takes into account buffs, debuffs, ongoing effects, etc. as well as visually represented damage, hit, magic, and other power curves for my own balancing."
+    },
+    {
+        "image": "4-sprite-example.png",
+        "heading": "The Beginning - Getting Graphic /w Godot",
+        "date": "March 2021",
+        "description": "I hadn't planned on making a fully-fledged game, but then I found out about Godot. After some research and practice, I realised that it wasn't so far out to connect everything in a proper game engine and have at least basic rendering and sprites. I started making little pixel people (...I made slimes...) and test assets to practice. //Visually, the goal is something resembling Pokemon-meets-RuneScape, with a game loop similar to Oblivion-meets-Diablo, kind of. After a bit more practice, I realised that if I got really serious about this as an even longer-term side project, then I could make a very interesting game of quality that maybe even others could enjoy!"
+    },
+    {
+        "image": "5-devlog-begins.png",
+        "heading": "The End (of The Beginning)",
+        "date": "28 July 2021",
+        "description": "Active development updates will begin from now. I decided to make this dev log using my JS and React experience to document & share the game's journey - as it is a side project updates may not be too frequent, and although I may post about small but significant parts of progress within the project, I may also suddenly come out with a huge update post, so watch this space!"
+    },
+    {
+        "image": "6-state050.png",
+        "heading": "Current State - v0.5.0",
+        "date": "3 August 2021",
+        "description": "The game, which remains nameless for some reason, has a bunch of key features and is essentially in a pre-alpha state. The next series of posts will break down each major aspect into what is currently working, what's in progress, and potentially what's planned."
+    },
+    {
+        "image": "7-state050-enemies.png",
+        "heading": "Current State - v0.5.0 - Creatures and Enemies",
+        "date": "3 August 2021",
+        "description": "Enemies are in a great place; there are around 100 unique enemy profiles, each has its own weapons (or generates a weapons if it can hold one), as well as unique abilities. There are also species abilities and weapons if applicable. Everything mentioned generates correctly and seems to work in combat, although further testing is necessary. //As well as this enemies can decide to cast magic! In combat, the enemies potentially spawn in groups and have a working AI which decides what movement and actions they do! A few fun things; enemies can group buff, they can spawn with special elemental resistances (and 3 magnitudes for those resistances)."
+    },
+    {
+        "image": "8-graphics.png",
+        "heading": "Current State - v0.5.0 - Godot Engine and Graphics",
+        "date": "3 August 2021",
+        "description": "The code is almost ready for preliminary testing in Godot, although most graphical assets do not exist currently (I have designed and imported a general visual interface, shown in pic, elements and mastery areas have been omitted!). //The next stage will be to use placeholder graphics to at least simulate battles, effects, and walking around the map. All of this will happen later in production. Map tiles also need to be designed and created, which will be a challenge in itself as I must make sure the art style and theme resonates well with the game's setting!"
+    },
+    {
+        "image": "9-state050-pc.png",
+        "heading": "Current State - v0.5.0 - The Player Character",
+        "date": "3 August 2021",
+        "description": "Base classes (Warrior, Mage, Rogue, Marksman, Cleric) exist with basic level unlocks (actives and passives), although no skill tree exists currently. The unlocks need to be tested to make sure they work and apply during combat where necessary. //Character creation also already exists! It will be looking great once a proper creation interface is made within Godot. Saving and loading also works, but this also needs the interface for it to fully come alive."
+    },
+    {
+        "image": "10-state050-elements.png",
+        "heading": "Current State - v0.5.0 - Other Interesting Aspects",
+        "date": "3 August 2021",
+        "description": "Elemental procs and effects exist, in fact, there are 10 of them, and they also work in combat (apart from one which uses a tricky delayed buff mechanism)! I'll give a free copy of the game upon release to the first person who could guess all 10, just tweet them at me, and I'll give clues down the line (think space-related). //Also, there are over 80 different materials and over 40 different weapon forms. Characters not only have magic master, but also mastery within an element. Characters can also specialise in different types of weapons, eg. bladed, 1-handed, etc."
+    },
+    {
+        "image": "11-state050-combat.png",
+        "heading": "Current State - v0.5.0 - Combat System",
+        "date": "3 August 2021",
+        "description": "The combat system is what I worked on just before the development of this log. I've been trying to get it to break, but it's holding up to the battering! The next stage would be to check the profiles of the creatures and enemies during each phase to make sure that buffs, debuffs, and general ongoing effects are working. //Interestingly, porting the game to the Godot Engine with basic sprites and visuals may actually aid this - I was thinking that a basic port would be the next step anyway. I will reflect on the current game's overview some more and think of what the next best steps are - I'm using a ticket board to keep track of everything I'm doing and everything that needs to be done, so let's see what happens - I'll update this log with any happenings!"
+    }
+]
