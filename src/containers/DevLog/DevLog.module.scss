@@ -33,3 +33,14 @@
     display: none;
   }
 }
+
+@media screen and (max-width: $bp-mobile) {
+  .container {
+    .arrow {
+      bottom: 16%;
+      left: 86%;
+      font-size: 40px;
+      color: rgba(255, 154, 72, 0.63);
+    }
+  }
+}

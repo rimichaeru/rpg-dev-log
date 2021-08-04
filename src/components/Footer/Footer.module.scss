@@ -30,3 +30,20 @@
     }
   }
 }
+
+@media screen and (max-width: $bp-mobile) {
+  .footer {
+    padding: 20px 24px;
+    justify-content: space-between;
+
+    .centre {
+      width: auto;
+      margin: 0 20px;
+    }
+
+    & * {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}

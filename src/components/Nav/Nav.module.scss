@@ -38,3 +38,23 @@
     }
   }
 }
+
+@media screen and (max-width: $bp-mobile) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .links {
+      gap: 10px;
+
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+}

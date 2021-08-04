@@ -19,5 +19,21 @@
     color: $colour-background;
     text-align: center;
   }
+}
 
+@media screen and (max-width: $bp-mobile) {
+  .container {
+    margin: 14px;
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 14px;
+      width: 360px;
+      margin-top: 8px;
+    }
+  }
 }

@@ -4,7 +4,7 @@ import Post from "../../components/Post";
 import posts from "../../assets/posts.json";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 
-const orderedPosts = posts.reverse() // keeps outside of state
+const orderedPosts = posts.reverse(); // keeps outside of state
 
 const DevLog = () => {
   const [showArrow, setShowArrow] = useState(false);
@@ -33,10 +33,11 @@ const DevLog = () => {
         })}
       </div>
 
-      <FaRegArrowAltCircleUp
-        className={showArrow ? styles.arrow : styles.arrowHidden}
-        onClick={() => window.scrollTo(0, 0)}
-      />
+      <div onClick={() => window.scrollTo(0, 0)}>
+        <FaRegArrowAltCircleUp
+          className={showArrow ? styles.arrow : styles.arrowHidden}
+        />
+      </div>
     </div>
   );
 };
