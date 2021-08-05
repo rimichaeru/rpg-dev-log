@@ -21,6 +21,15 @@
   }
 }
 
+@media screen and (max-width: $bp-tablet) {
+  .container {
+    p {
+      font-size: 16px;
+      width: 700px;
+    }
+  }
+}
+
 @media screen and (max-width: $bp-mobile) {
   .container {
     margin: 14px;

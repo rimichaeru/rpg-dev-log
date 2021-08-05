@@ -39,6 +39,7 @@
   }
 }
 
+
 @media screen and (max-width: $bp-mobile) {
   .container {
     flex-direction: column;
@@ -46,14 +47,14 @@
     gap: 6px;
 
     h2 {
-      font-size: 20px;
+      font-size: 6vw;
     }
 
     .links {
-      gap: 10px;
+      gap: 2vw;
 
       a {
-        font-size: 18px;
+        font-size: 4vw;
       }
     }
   }

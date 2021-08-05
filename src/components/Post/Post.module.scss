@@ -53,6 +53,40 @@
   }
 }
 
+@media screen and (max-width: $bp-tablet) {
+  .container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: scroll;
+    border-radius: 30px;
+
+    h6 {
+      top: 16px;
+      right: 16px;
+      font-size: 18px;
+    }
+
+    & > img {
+      width: 360px;
+      height: auto;
+    }
+
+    .info {
+      height: auto;
+      margin: 20px;
+      margin-top: 0;
+      margin-bottom: 30px;
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
 @media screen and (max-width: $bp-mobile) {
   .container {
     width: 380px;

@@ -31,6 +31,23 @@
   }
 }
 
+@media screen and (max-width: $bp-tablet) {
+  .footer {
+    padding: 20px 32px;
+    justify-content: space-between;
+
+    .centre {
+      width: auto;
+      margin: 0 20px;
+    }
+
+    & * {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}
+
 @media screen and (max-width: $bp-mobile) {
   .footer {
     padding: 20px 24px;
