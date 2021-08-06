@@ -64,5 +64,11 @@
         "heading": "Current State - v0.5.0 - Combat System",
         "date": "3 August 2021",
         "description": "The combat system is what I worked on just before the development of this log. I've been trying to get it to break, but it's holding up to the battering! The next stage would be to check the profiles of the creatures and enemies during each phase to make sure that buffs, debuffs, and general ongoing effects are working. //Interestingly, porting the game to the Godot Engine with basic sprites and visuals may actually aid this - I was thinking that a basic port would be the next step anyway. I will reflect on the current game's overview some more and think of what the next best steps are - I'm using a ticket board to keep track of everything I'm doing and everything that needs to be done, so let's see what happens - I'll update this log with any happenings!"
+    },
+    {
+        "image": "12-ability-cd.png",
+        "heading": "Enemy Cooldowns",
+        "date": "6 August 2021",
+        "description": "Since I hadn't added the cooldown logic yet, enemies were spamming certain powerful skills or even focused on super buffing themselves many turns in a row! They've now been correctly restricted!"
     }
 ]
