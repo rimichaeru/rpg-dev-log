@@ -70,5 +70,11 @@
         "heading": "Enemy Cooldowns",
         "date": "6 August 2021",
         "description": "Since I hadn't added the cooldown logic yet, enemies were spamming certain powerful skills or even focused on super buffing themselves many turns in a row! They've now been correctly restricted!"
+    },
+    {
+        "image": "13-combatui-basic.gif",
+        "heading": "Birth of the Combat UI",
+        "date": "17 August 2021",
+        "description": "Built some basic status bars and icons in preparation for the initial live port; next up comes the UI switching with rudimentary buttons so that we can fight in combat!"
     }
 ]
