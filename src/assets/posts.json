@@ -78,7 +78,7 @@
         "description": "Built some basic status bars and icons in preparation for the initial live port; next up comes the UI switching with rudimentary buttons so that we can fight in combat!"
     },
     {
-        "image": "14-the-grand-port-pretests",
+        "image": "14-the-grand-port-pretests.png",
         "heading": "The Grand Port - Pretests",
         "date": "19 August 2021",
         "description": "A lot has happened in the last two days: UIs have been created for all of the main screens; your character now stores a Kill Count which directly increases creature and species character knowledge; a starting solution for visual FX has been decided! //Maybe most importantly, python module testing, saving, and loading was done in the game engine to clarify code interactions with internal components and functions, and I'm happy to say that all is ready for the grand port!"
