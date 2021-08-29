@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rpg-dev-log/static/css/main.0fad24e3.chunk.css",
-    "main.js": "/rpg-dev-log/static/js/main.e19c384d.chunk.js",
-    "main.js.map": "/rpg-dev-log/static/js/main.e19c384d.chunk.js.map",
+    "main.js": "/rpg-dev-log/static/js/main.9fb69a82.chunk.js",
+    "main.js.map": "/rpg-dev-log/static/js/main.9fb69a82.chunk.js.map",
     "runtime-main.js": "/rpg-dev-log/static/js/runtime-main.af307cfc.js",
     "runtime-main.js.map": "/rpg-dev-log/static/js/runtime-main.af307cfc.js.map",
     "static/js/2.d5ff3415.chunk.js": "/rpg-dev-log/static/js/2.d5ff3415.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.af307cfc.js",
     "static/js/2.d5ff3415.chunk.js",
     "static/css/main.0fad24e3.chunk.css",
-    "static/js/main.e19c384d.chunk.js"
+    "static/js/main.9fb69a82.chunk.js"
   ]
 }
